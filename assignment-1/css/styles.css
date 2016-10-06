@@ -10,14 +10,14 @@ h2 {
 	text-align: center;
 }
 
-.main-list li a:link {
+.main-window li a:link {
 	color: black;
 	text-decoration: none;
 	
 	border-bottom: 1px dotted blue;
 }
 
-.main-list li a:hover, a:visited {
+.main-window li a:hover, a:visited {
 	color: firebrick;
 }
 
