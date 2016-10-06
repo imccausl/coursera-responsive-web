@@ -17,8 +17,12 @@ h2 {
 	border-bottom: 1px dotted blue;
 }
 
-.main-window li a:hover, a:visited {
+.main-window li a:hover {
 	color: firebrick;
+}
+
+.main-window li a:visited {
+	color: black;
 }
 
 #task-info tr td {
