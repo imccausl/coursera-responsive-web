@@ -17,7 +17,6 @@
 <nav class="navbar navbar-inverse">
 <div class="container-fluid">
 		<div class="navbar-header">
-		<div class="navbar-header">
 			<button type="button" 
 					class="navbar-toggle collapsed" 
 					data-toggle="collapse" 
@@ -32,10 +31,10 @@
 		</div>
 	
 	<!--nav links-->
-	<div class="collapse navbar-collapse" id="main-nav">		
+	<div class="collapse navbar-collapse" id="main-nav">
 		<ul class="nav navbar-nav">
-			<li><a href="index.html">Home </a></li>
-			<li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
+			<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home <span class="sr-only">(current)</span> </a></li>
+			<li class="active"><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> About </a></li>
 		</ul>
 	</div> <!-- /navbar-collapse -->
 </div> <!-- /container-fluid -->
@@ -43,16 +42,21 @@
 
 <!-- breadcrumb -->
 <ol class="breadcrumb">
-	<li><a href="index.html">Home</a></li>
-	<li><a href="about.html">About</a></li>
+	<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+	<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> About</a></li>
 </ol>
 
 <section class="container-fluid">
-	<div class="row">
+				<h2>About this Website</h2>
+			<div class="alert alert-info" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="close"><span aria-hidden="true">&times;</span></button><strong>Here you are at the about page!</strong> This is the about page, which is pretty self-explanatory as to its purpose. But if you're still confused, read on! You'll find some information about this website here.
+		</div>
+<div class="row">
 		<div class="col-xs-12">
-			<h2>About this Website</h2>
+
 			<div class="main-window">
-			
+				<p>Hey, so this page is about stuff and stuff. The purpose of this page is to give you some information about this website. So here is that information: basically it presents a task list because, well, that's what the assignment told me to do. We haven't really learned how to make checkboxes so I used an ordered list instead. Also, I couldn't really be bothered, even if I used checkboxes to make the checkboxes actually do anything. At least not yet. It just seemed a little bit too above-and-beyond what is was necessary for this assignment. So you know? I hope this about page was extremely super informative.</p>
+			<p>Oh yeah, one last thing about this page. I decided to use some bootstrap glyphicons because I felt like it made the whole thing a little bit more intuitive, especially for more visual people. So yeah, I did that on purpose thinking about the user-experience and about giving the user visual clues as to where they are and where they can go by using the menu. You will also find that it is fully responsive thanks to the awesome power of bootstrap. Cool!
 			</div>
 		</div>
 	</div>
