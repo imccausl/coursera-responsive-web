@@ -33,8 +33,8 @@
 	<!--nav links-->
 	<div class="collapse navbar-collapse" id="main-nav">
 		<ul class="nav navbar-nav">
-			<li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
-			<li><a href="about.html">About</a></li>
+			<li class="active"><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home <span class="sr-only">(current)</span> </a></li>
+			<li><a href="about.html"><span class="glyphicon glyphicon-question-sign"></span> About </a></li>
 		</ul>
 	</div> <!-- /navbar-collapse -->
 </div> <!-- /container-fluid -->
@@ -42,21 +42,25 @@
 
 <!-- breadcrumb -->
 <ol class="breadcrumb">
-	<li><a href="index.html">Home</a></li>
+	<li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
 </ol>
 
 <section class="container-fluid">
-	<div class="row">
-		<div class="col-xs-12">
+	
 			<h2>To Do List</h2>
+			<div class="alert alert-info" role="alert">
+				<button type="button" class="close" data-dismiss="alert" aria-label="close"><span aria-hidden="true">&times;</span></button><strong>Hello! Welcome to the landing page!</strong> Here you'll find the main navigation window, above, and, below, a list of tasks to be accomplished. Click one of the tasks for more details.
+		</div>
+		<div class="row">
+		<div class="col-xs-12">
 			<div class="main-window">
 				<ol>
-					<li><a href="taskinfo.html">Learn Bootstrap</a></li>
-					<li><a href="taskinfo.html">Finish assignments on time</a></li>
-					<li><a href="taskinfo.html">Learn to use grunt</a></li>
-					<li><a href="taskinfo.html">Learn AngularJS</a></li>
-					<li><a href="taskinfo.html">Replace 8 year old MacBook</a></li>
-					<li><a href="taskinfo.html">Do some cool stuff</a></li>
+					<li><a href="taskinfo.html">Learn Bootstrap</a> <a class="link-box" href="taskinfo.html"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+					<li><a href="taskinfo.html">Finish assignments on time</a> <a class="link-box" href="taskinfo.html"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+					<li><a href="taskinfo.html">Learn to use grunt</a> <a class="link-box" href="taskinfo.html"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+					<li><a href="taskinfo.html">Learn AngularJS</a> <a class="link-box" href="taskinfo.html"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+					<li><a href="taskinfo.html">Replace 8 year old MacBook</a> <a class="link-box" href="taskinfo.html"><span class="glyphicon glyphicon-info-sign"></span></a></li>
+					<li><a href="taskinfo.html">Do some cool stuff</a> <a class="link-box" href="taskinfo.html"><span class="glyphicon glyphicon-info-sign"></span></a></li>
 				</ol>
 		</div>
 	</div>
