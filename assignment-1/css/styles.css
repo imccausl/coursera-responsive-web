@@ -1,4 +1,4 @@
-.main-list {
+.main-window {
 	margin: 40px;
 	padding: 20px;
 	background-color:rgba(206, 206, 206, 0.94);
@@ -21,4 +21,16 @@ h2 {
 	color: firebrick;
 }
 
+#task-info tr td {
+	min-width: 100px;
+}
 
+.main-window ol li a.link-box {
+	display: inline-block;
+	border: none;
+	padding: 2px;
+}
+
+.main-window ol li a.link-box:hover {
+	color: green;
+}
